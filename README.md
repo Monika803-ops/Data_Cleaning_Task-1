@@ -59,10 +59,17 @@ Both columns were transformed to have a mean of 0 and a standard deviation of 1.
 
  5. Visualizing and Handling Outliers
 
-Boxplots were used to visualize the distribution of `Age` and `Fare`.
-Outliers in the `Fare` column were evident, with some values far exceeding the rest. To keep the dataset more balanced, entries where `Fare` was greater than 300 were removed.
+## Boxplots for Outlier Detection
 
-![Boxplot](images/Box_plot.png)
+### Boxplot of Fare
+The boxplot below shows the distribution of the `Fare` column. Extreme values were removed by filtering out entries where `Fare > 300`.
+
+![Boxplot of Fare](images/Box_plot.png)
+
+### Boxplot of Age
+The boxplot below shows the distribution of the `Age` column. It helps visualize the central tendency and spread of the data.
+
+![Boxplot of Age](images/Box_Plot_Age.png)
 
 
 
