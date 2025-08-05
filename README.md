@@ -1,6 +1,4 @@
 
-
-
 Task 1: Data Cleaning and Preprocessing – Titanic Dataset
 
 Objective
