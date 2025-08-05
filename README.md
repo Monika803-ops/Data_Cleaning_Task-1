@@ -62,11 +62,12 @@ Both columns were transformed to have a mean of 0 and a standard deviation of 1.
 Boxplots were used to visualize the distribution of `Age` and `Fare`.
 Outliers in the `Fare` column were evident, with some values far exceeding the rest. To keep the dataset more balanced, entries where `Fare` was greater than 300 were removed.
 
-![Boxplot of Age](images/Screenshot_2025-08-05_142011.png)
+![Boxplot](images/Box_plot.png)
 
 
 
-![Boxplot of Fare](images/Screenshot_2025-08-05_142022.png)
+
+
 
 
 These visualizations help justify why certain preprocessing steps (like removing extreme fares) were taken.
