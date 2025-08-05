@@ -61,15 +61,19 @@ Both columns were transformed to have a mean of 0 and a standard deviation of 1.
 
 ## Boxplots for Outlier Detection
 
-### Boxplot of Fare
-The boxplot below shows the distribution of the `Fare` column. Extreme values were removed by filtering out entries where `Fare > 300`.
 
-![Boxplot of Fare](images/Box_plot.png)
 
 ### Boxplot of Age
 The boxplot below shows the distribution of the `Age` column. It helps visualize the central tendency and spread of the data.
 
 ![Boxplot of Age](images/Box_Plot_Age.png)
+
+### Boxplot of Fare
+This boxplot displays the distribution of passenger fares. A small number of passengers paid significantly higher fares, which appear as outliers in the plot.  
+To handle this, we filtered out records where `Fare > 300` to reduce skewness in the dataset.
+
+![Boxplot of Fare](images/Box_Plot_Fare.png)
+
 
 
 
